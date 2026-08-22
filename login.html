@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<body>
+    
+    <!-- ADICIONAR O <form> AQUI -->
+    <form action="valida.php" method="POST">
+
+        <!-- Coleta do e-mail do usuário -->
+        <label>E-mail:</label>
+        <input type="email" name="email" placeholder="marcelo@email.com" required>
+        <br><br>
+        
+        <!-- Coleta da senha de acesso -->
+        <label>Senha:</label>
+        <input type="password" name="senha" required>
+        <br><br>
+        
+        <!-- Botão que dispara a requisição HTTP -->
+        <button type="submit">Entrar</button>
+
+    </form>
+
+    <!-- <script> alert("O servidor foi invadido!"); </script> -->
+
+</body>
+</html>
